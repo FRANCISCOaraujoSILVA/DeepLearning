@@ -36,8 +36,8 @@ Dropout: para corrigir ou atenuar o problema de overfitting. Irá zerá alguns v
 camada oculta), para que esses valores (aleatórios) não tenham influencia no resultado final.
 
 """
-entradas_breast = "\\Users\\DELL\\PycharmProjects\\DNN\\Classificacao_Binaria\\entradas_breast.csv"
-saidas_breast = "\\Users\\DELL\\PycharmProjects\\DNN\\Classificacao_Binaria\\saidas_breast.csv"
+entradas_breast = "\\Users\\DELL\\PycharmProjects\\DeepLearning_DNN\\Classificacao_Binaria\\entradas_breast.csv"
+saidas_breast = "\\Users\\DELL\\PycharmProjects\\DeepLearning_DNN\\Classificacao_Binaria\\saidas_breast.csv"
 previsores = pd.read_csv(entradas_breast)
 classe = pd.read_csv(saidas_breast)
 

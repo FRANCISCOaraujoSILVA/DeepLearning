@@ -10,8 +10,8 @@ há necessidade da realizar a validação cruzada, pois estas técnicas são usa
 
 """
 
-entradas_breast = "\\Users\\DELL\\PycharmProjects\\DNN\\Classificacao_Binaria\\entradas_breast.csv"
-saidas_breast = "\\Users\\DELL\\PycharmProjects\\DNN\\Classificacao_Binaria\\saidas_breast.csv"
+entradas_breast = "\\Users\\DELL\\PycharmProjects\\DeepLearning_DNN\\Classificacao_Binaria\\entradas_breast.csv"
+saidas_breast = "\\Users\\DELL\\PycharmProjects\\DeepLearning_DNN\\Classificacao_Binaria\\saidas_breast.csv"
 previsores = pd.read_csv(entradas_breast)  # X
 classe = pd.read_csv(saidas_breast)  # y
 

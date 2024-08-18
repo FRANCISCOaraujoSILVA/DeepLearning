@@ -16,8 +16,8 @@ Então considere:
 X = entradas_breast
 y = saidas_breast
 """
-entradas_breast = "\\Users\\DELL\\PycharmProjects\\DNN\\Classificacao_Binaria\\entradas_breast.csv"
-saidas_breast = "\\Users\\DELL\\PycharmProjects\\DNN\\Classificacao_Binaria\\saidas_breast.csv"
+entradas_breast = "\\Users\\DELL\\PycharmProjects\\DeepLearning_DNN\\Classificacao_Binaria\\entradas_breast.csv"
+saidas_breast = "\\Users\\DELL\\PycharmProjects\\DeepLearning_DNN\\Classificacao_Binaria\\saidas_breast.csv"
 previsores = pd.read_csv(entradas_breast)  # atributos previsores
 classe = pd.read_csv(saidas_breast)  # classe (meta/resposta). 0 -> Benigno, 1 -> Maligno
 
